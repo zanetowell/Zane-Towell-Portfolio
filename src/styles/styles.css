@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+    padding-bottom: 50px;
 }
 
 .nav-name {
@@ -33,9 +34,30 @@
 
 /* About Styles */
 .about {
-    /* background-color: rgb(204, 155, 60); */
     background-color: rgb(226, 222, 205);
-    height: 100vh;
+    height: 80vh;
+    display: flex;
+}
+
+.about-pic-container {
+    background-color: rgb(204, 155, 60);
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    margin-left: 10vw;
+}
+
+.about-pic {
+    border-radius: 20%;
+    position: relative;
+    float: left;
+}
+
+.about-blurb {
+    margin: 150px auto;
+    width: 30vw;
+    font-size: x-large;
+    color: rgb(204, 155, 60);
 }
 
 /* Skills Styles */
@@ -44,11 +66,13 @@
     height: 100vh;
 }
 
+
 /* Projects Styles */
 .projects {
     background-color: rgb(12, 31, 58);
     height: 100vh;
 }
+
 
 /* Contact Styles */
 .contact {
