@@ -1,0 +1,57 @@
+/* App Styles */
+.app {
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* Nav Styles */
+.nav {
+    position: sticky;
+    height: 15vh;
+    background-color: rgb(226, 222, 205);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.nav-name {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav-list li {
+    font-size: 30px;
+}
+
+/* About Styles */
+.about {
+    /* background-color: rgb(204, 155, 60); */
+    background-color: rgb(226, 222, 205);
+    height: 100vh;
+}
+
+/* Skills Styles */
+.skills {
+    background-color: rgb(115, 120, 55);
+    height: 100vh;
+}
+
+/* Projects Styles */
+.projects {
+    background-color: rgb(12, 31, 58);
+    height: 100vh;
+}
+
+/* Contact Styles */
+.contact {
+    background-color: rgb(153, 57, 39);
+    height: 100vh;
+}
