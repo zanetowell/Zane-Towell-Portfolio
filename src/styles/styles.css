@@ -31,6 +31,12 @@
 
 .nav-list li {
     font-size: 30px;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.nav-list li:hover {
+    transform: scale(1.2);
 }
 
 /* About Styles */
@@ -57,13 +63,15 @@
 
 .about-me {
     font-size: 70px;
+    color: rgb(204, 155, 60);
 }
 
 .about-blurb {
     margin: 50px auto;
     width: 50vw;
     font-size: x-large;
-    color: rgb(204, 155, 60);
+    /* color: rgb(204, 155, 60); */
+    color: black;
     text-align:left;
 }
 
@@ -74,35 +82,54 @@
 }
 
 .my-skills {
-    margin-top: 0;
-    font-size: 80px;
-    padding-top: 60px;
+    color: rgb(115, 120, 55);
+    background-color: rgb(226, 222, 205);
+    margin: 0 auto;
+    font-size: 75px;
+    padding-bottom: 10px;
+    height: 10vh;
+    border-radius: 0 0 40px 40px;
+}
+
+.skills-blurb {
+    font-size: 30px;
     color: rgb(226, 222, 205);
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.frontend-blurb {
+    margin-top: 40px;
+}
+
+.backend-blurb {
+    margin-top: 40px;
 }
 
 .skills-list-container {
     background-color: rgb(226, 222, 205);
-    height: 50vh;
-    width: 75vw;
     border-radius: 10px;
-    margin: 0 auto;
+    width: 75vw;
+    height: 20vh;
+    margin: 10vh auto;
+    padding: 20px;
 }
 
 .skills-list {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     margin: 0 auto;
     padding: 0;
 }
 
 .skills-list li {
     background-color: white;
-    padding: 15px;
     border-radius: 15px;
-    margin-top: 18vh;
     transition-duration: .3s;
+    margin: 25px auto;
+    padding: 15px;
 }
 
 .skills-list li:hover {
