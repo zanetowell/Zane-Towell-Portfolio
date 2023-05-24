@@ -7,13 +7,14 @@ const About = () => {
   return (
     <div className='about'>
       <aside className='about-pic-container'>
-        <img src={profilePicture} alt='' className='about-pic' height='350px'/>
+        <img src={profilePicture} alt='' className='about-pic' height='400px'/>
       </aside>
       <article className='about-blurb'>
-        <h3>I'm a highly motivated software engineer that creates intuitive solutions and designs.
+        <h2 className='about-me'>About Me</h2>
+        <h3>Hi, my name is Zane!
           <br />
-            My background in customer service and management gave me the skills needed to continually
-            grow and learn in an ever-changing environment.</h3>
+            I'm a developer that's passionate about creating effective frontend designs and efficient backends. Collaboration is at the heart of what I do. I thrive in dynamic, diverse teams where different perspectives come together to create something extraordinary. I love working with clients and colleagues, and I believe in fostering open communication and strong relationships to achieve shared goals.
+        </h3>
       </article>
     </div>
   )

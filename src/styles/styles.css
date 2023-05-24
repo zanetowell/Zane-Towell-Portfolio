@@ -19,6 +19,7 @@
 .nav-name {
     font-weight: 500;
     font-size: 3rem;
+    margin-left: 1rem;
 }
 
 .nav-list {
@@ -35,14 +36,15 @@
 /* About Styles */
 .about {
     background-color: rgb(226, 222, 205);
-    height: 80vh;
+    height: 90vh;
     display: flex;
+    margin-bottom: 0;
 }
 
 .about-pic-container {
     background-color: rgb(204, 155, 60);
-    height: 400px;
-    width: 400px;
+    height: 470px;
+    width: 450px;
     border-radius: 20%;
     margin-left: 10vw;
 }
@@ -53,17 +55,59 @@
     float: left;
 }
 
+.about-me {
+    font-size: 70px;
+}
+
 .about-blurb {
-    margin: 150px auto;
-    width: 30vw;
+    margin: 50px auto;
+    width: 50vw;
     font-size: x-large;
     color: rgb(204, 155, 60);
+    text-align:left;
 }
 
 /* Skills Styles */
 .skills {
     background-color: rgb(115, 120, 55);
     height: 100vh;
+}
+
+.my-skills {
+    margin-top: 0;
+    font-size: 80px;
+    padding-top: 60px;
+    color: rgb(226, 222, 205);
+}
+
+.skills-list-container {
+    background-color: rgb(226, 222, 205);
+    height: 50vh;
+    width: 75vw;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 18vh;
+    transition-duration: .3s;
+}
+
+.skills-list li:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 18px 0px rgba(255,255,255,1);
 }
 
 
