@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState }from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
 
+
 const Nav = () => {
 
+  const [menuOpen, setMenuOpen] = useState(false)
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
 
   return (
     <div className='nav'>

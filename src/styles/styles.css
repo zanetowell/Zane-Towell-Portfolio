@@ -335,3 +335,67 @@
 .linkedin-github a:hover {
     transform: scale(1.2);
 }
+
+
+/* Screen Breakpoints */
+
+@media screen and (max-width: 1310px) {
+    .about-pic-container{
+        margin: 0 auto;
+        padding:0;
+    }
+
+    .projects {
+        height: 250vh;
+    }
+
+    .projects-columns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-1, .project-2, .project-3, .project-4 {
+        display: block;
+        width: 90%;
+        margin-left: 0;
+        margin: 30px, auto;
+        justify-self: center;
+        padding: 5px;
+    }
+    
+    .project-1:hover {
+        transform: none
+    }
+    .project-2:hover {
+        transform: none
+    }
+    .project-3:hover {
+        transform: none
+    }
+    .project-4:hover {
+        transform: none
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .skills-blurb {
+        width: 90%;
+    }
+
+    .skills-list li:hover {
+        transform: none
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about-blurb {
+        width: 90%;
+        margin-top: 0;
+        font-size: large;
+    }
+}
