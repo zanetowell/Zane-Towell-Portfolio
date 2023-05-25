@@ -346,7 +346,7 @@
     }
 
     .projects {
-        height: 250vh;
+        height: 275vh;
     }
 
     .projects-columns {
@@ -397,5 +397,79 @@
         width: 90%;
         margin-top: 0;
         font-size: large;
+    }
+
+    .skills-list-container {
+        width: 90%;
+    }
+
+    .projects {
+        height: 295vh;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .nav-list li {
+        font-size: 1rem;
+        padding-left: 0;
+    }
+
+
+    .skills-list-container {
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    .skills-list li{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .about {
+        height: 130vh;
+    }
+
+    .skills-list-container {
+        display: none;
+    }
+
+    .projects {
+        height: 295vh;
+    }
+
+    .email-phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .project-1 img, .project-2 img, .project-3 img, .project-4 img{
+        display: none;
+    }
+
+    .projects {
+        height: 150vh;
+    }
+    
+}
+
+@media screen and (max-width: 635px) {
+    .projects {
+        height: 175vh;
+    }
+    .frontend-blurb, .backend-blurb {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .projects {
+        height: 200vh;
     }
 }

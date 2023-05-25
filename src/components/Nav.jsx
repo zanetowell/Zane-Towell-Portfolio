@@ -4,13 +4,12 @@ import { Link } from 'react-scroll'
 
 
 const Nav = () => {
-
   const [menuOpen, setMenuOpen] = useState(false)
-
+  
   const toggleMenu = () => {
     setMenuOpen(!menuOpen)
   }
-
+  
   return (
     <div className='nav'>
       <h1 className='nav-name'>Zane Towell</h1>
@@ -22,7 +21,9 @@ const Nav = () => {
         <motion.li><li><a href='https://docs.google.com/document/d/1U8jNwJXbAuF6fuRj_4J6ci_c_sG2AR5STjAtpD3tU7k/edit?usp=sharing' target='_blank' rel='noreferrer'>resume</a></li></motion.li>
       </motion.ul>
     </div>
-  )
+  ) 
 }
+  
+
 
 export default Nav
