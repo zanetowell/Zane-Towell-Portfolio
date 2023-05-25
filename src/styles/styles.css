@@ -167,6 +167,11 @@
     height: 200vh;
 }
 
+.projects a {
+    text-decoration: none;
+    color: rgb(226, 222, 205);
+}
+
 .my-projects {
     color: rgb(226, 222, 205);
     background-color: rgb(64, 123, 59);
