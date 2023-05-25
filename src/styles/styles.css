@@ -66,6 +66,12 @@
     color: rgb(204, 155, 60);
 }
 
+.divider {
+    background-color: black;
+    height: 2px;
+    width: 40vw;
+}
+
 .about-blurb {
     margin: 50px auto;
     width: 50vw;
@@ -73,16 +79,18 @@
     /* color: rgb(204, 155, 60); */
     color: black;
     text-align:left;
+    padding-left: 40px;
 }
 
 /* Skills Styles */
 .skills {
-    background-color: rgb(115, 120, 55);
+    background-color: rgb(64, 123, 59);
     height: 100vh;
 }
 
 .my-skills {
-    color: rgb(115, 120, 55);
+    /* color: rgb(115, 120, 55); */
+    color: rgb(64, 123, 59);
     background-color: rgb(226, 222, 205);
     margin: 0 auto;
     font-size: 75px;
@@ -109,10 +117,10 @@
 
 .skills-list-container {
     background-color: rgb(226, 222, 205);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 75vw;
     height: 20vh;
-    margin: 10vh auto;
+    margin: 5vh auto;
     padding: 20px;
 }
 
@@ -140,13 +148,33 @@
 
 /* Projects Styles */
 .projects {
-    background-color: rgb(12, 31, 58);
+    background-color: rgb(226, 222, 205);
     height: 100vh;
+}
+
+.my-projects {
+    color: rgb(226, 222, 205);
+    background-color: rgb(64, 123, 59);
+    margin: 0 auto;
+    font-size: 75px;
+    padding-bottom: 10px;
+    height: 10vh;
+    border-radius: 0 0 40px 40px;
 }
 
 
 /* Contact Styles */
 .contact {
-    background-color: rgb(153, 57, 39);
+    background-color: rgb(204, 155, 60);
     height: 100vh;
+}
+
+.my-contact-info {
+    color: rgb(204, 155, 60);
+    background-color: rgb(226, 222, 205);
+    margin: 0 auto;
+    font-size: 75px;
+    padding-bottom: 10px;
+    height: 10vh;
+    border-radius: 0 0 40px 40px;
 }
