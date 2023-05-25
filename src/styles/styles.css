@@ -3,23 +3,27 @@
     font-family: Helvetica, sans-serif;
 }
 
+.body {
+    scroll-behavior: smooth;
+}
 
 /* Nav Styles */
 .nav {
-    position: sticky;
-    height: 15vh;
+    position: fixed;
+    height: 12vh;
+    width: 100%;
     background-color: rgb(226, 222, 205);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
-    padding-bottom: 50px;
+    margin-top: 0;
+    z-index: 50;
 }
 
 .nav-name {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 3rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .nav-list {
@@ -27,12 +31,21 @@
     display: flex;
     justify-content: space-around;
     gap: 3rem;
+    margin-right: 2rem;
 }
 
 .nav-list li {
     font-size: 30px;
     transition-duration: .2s;
     cursor: pointer;
+}
+
+.nav-list li a{
+    font-size: 30px;
+    transition-duration: .2s;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 .nav-list li:hover {
@@ -43,6 +56,7 @@
 .about {
     background-color: rgb(226, 222, 205);
     height: 90vh;
+    padding-top: 20vh;
     display: flex;
     margin-bottom: 0;
 }
@@ -105,6 +119,7 @@
     width: 70vw;
     margin: 0 auto;
     padding-top: 20px;
+    
 }
 
 .frontend-blurb {
@@ -272,6 +287,7 @@
 /* Contact Styles */
 .contact {
     background-color: rgb(204, 155, 60);
+    color: rgb(226, 222, 205);
     height: 100vh;
 }
 
@@ -283,4 +299,39 @@
     padding-bottom: 10px;
     height: 10vh;
     border-radius: 0 0 40px 40px;
+}
+
+.contact-top {
+    font-size: 70px;
+}
+
+.email-phone {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.contact-bot {
+    font-size: 70px;
+}
+
+.linkedin-github a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    font-size: 40px;
+    color: rgb(226, 222, 205);
+    text-decoration: none;
+    transition: .3s;
+    width: fit-content;
+}
+
+.linkedin-github img {
+    padding-right: 20px;
+    color: rgb(226, 222, 205);
+}
+
+.linkedin-github a:hover {
+    transform: scale(1.2);
 }

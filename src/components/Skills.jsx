@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <h2 className='my-skills'>My Skills</h2>
       <div className='skills-blurb'>
         <h3 className='frontend-blurb'>With a strong foundation in frontend development, I bring a deep understanding of responsive design principles and strive to create visually stunning, user-friendly websites.

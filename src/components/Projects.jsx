@@ -7,7 +7,7 @@ import curate from '../images/curate.png'
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <h2 className='my-projects'>Projects</h2>
       <div className='projects-columns'>
         <div className='project-1'>
