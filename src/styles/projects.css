@@ -1,3 +1,7 @@
 #projects {
     background-color: rgb(220, 205, 181);
 }
+
+#projects img {
+    max-width: 100vw;
+}

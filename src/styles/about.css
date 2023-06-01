@@ -1,6 +1,7 @@
 #about-me {
-    padding-top: 5vh;
+    padding-top: 8vh;
     background-color: rgb(220, 205, 181);
+    padding-bottom: 20px;
 }
 
 .about-pic-container {
@@ -31,4 +32,8 @@
 .about-blurb h3 {
     font-size: 1.8rem;
     padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    max-width: 75vw;
+    text-align: center;
 }
