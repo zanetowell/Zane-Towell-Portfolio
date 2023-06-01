@@ -1,3 +1,45 @@
 #contact {
-    background-color: rgb(220, 205, 181);
+    background-color: rgb(203, 151, 108);
+    color: rgb(220, 205, 181);
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(220, 205, 181);
+    font-size: 2rem;
+}
+
+.my-contact-info {
+    font-size: 45px;
+    background-color: rgb(203, 151, 108);
+    height: 15vh;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(220, 205, 181);
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0px 6px 6px 1px rgba(0,0,0,0.68);
+}
+
+.contact-top {
+    font-size: 3rem;
+    padding: 10px;
+    margin-top: 5vh;
+}
+
+.email,.phone {
+    font-size: 2rem;
+    margin-top: 3vh;
+}
+
+.contact-bot {
+    font-size: 3rem;
+    padding: 10px;
+    margin-top: 5vh;
+}
+
+.linkedin-github {
+    margin-top: 5vh;
 }
