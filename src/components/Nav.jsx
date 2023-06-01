@@ -27,7 +27,7 @@ function MyNav() {
   return (
     <Navbar bg="" variant='light' expand="lg" fixed='top' id='myNav'>
       <Container>
-        <Navbar.Brand id='name'><b>Zane Towell</b></Navbar.Brand>
+        <Navbar.Brand id='name'><Link to='about-me' >Zane Towell</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
