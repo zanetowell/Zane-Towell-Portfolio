@@ -1,6 +1,6 @@
 import React from 'react'
 import profilePicture from '../images/pfp.jpeg'
-
+import '../styles/about.css'
 
 const About = () => {
   return (
