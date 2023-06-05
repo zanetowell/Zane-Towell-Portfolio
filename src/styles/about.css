@@ -1,5 +1,5 @@
 #about-me {
-    padding-top: 8vh;
+    padding-top: 7vh;
     background-color: rgb(220, 205, 181);
     padding-bottom: 20px;
 }
@@ -37,4 +37,13 @@
     margin-bottom: 0;
     max-width: 80vw;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    #about-me {
+        height: 100vh;
+    }
+    .about-blurb {
+        margin: 10px auto;
+    }
 }
