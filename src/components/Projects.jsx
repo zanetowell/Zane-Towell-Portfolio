@@ -3,7 +3,7 @@ import poke from '../images/pokelibrary.png'
 import waters from '../images/watersreviewed.png'
 import sandwich from '../images/sandwichio.png'
 import curate from '../images/curate.png'
-
+import '../styles/projects.css'
 
 const Projects = () => {
   return (
@@ -50,5 +50,10 @@ const Projects = () => {
     </div>
   )
 }
+
+
+
+
+
 
 export default Projects

@@ -1,4 +1,7 @@
 import React from 'react'
+import '../styles/skills.css'
+import '../styles/styles.css'
+
 
 const Skills = () => {
   return (
